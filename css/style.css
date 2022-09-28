@@ -46,9 +46,20 @@ body{
     }
     
     /* Hide the link that should open and close the topnav on small screens */
-    .topnav .icon {
+    .topnav a.icon {
       display: none;
     }
+
+    .profile-links{
+        color:#ddd;
+        display: flex;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+
     
     /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
     @media screen and (max-width: 600px) {
@@ -92,10 +103,6 @@ body{
        flex-direction:column;
        flex:1;
     }
-    .profile-links{
-      display:flex;
-      
-    }
   
       
   
@@ -123,3 +130,5 @@ body{
     height:500px;
     text-align:center;
   }
+ 
+ 
