@@ -6,10 +6,13 @@ body{
   h1{
     font-size:35px;
     font-style:oblique;
+    text-align:center;
+
   }
   p{
       font-size:25px;
     font-style:oblique;
+    margin: 20px;;
   }
   img {
     border-radius: 50%;
@@ -120,15 +123,18 @@ body{
     background: -moz-linear-gradient(top left, #265182, #9694D8);
     background: linear-gradient(to bottom right, #265182, #9694D8);
       background-size: cover;
+
+      
     }
     #projects-section{
       height:500px;
-      text-align:center;
+      text-align:justify;
     }
+
   #about-section{
 
     height:500px;
-    text-align:center;
+    text-align:justify;
   }
  
  
